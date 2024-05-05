@@ -15,7 +15,7 @@ In the meantime, below is an example of what you can do with just a few lines of
 """
 chart_data = pd.DataFrame(
      np.random.randn(30, 5),
-     columns=['a', 'b', 'c'])
+     columns=['a', 'b', 'c','d','e'])
 
 st.line_chart(chart_data)
 
