@@ -14,7 +14,7 @@ forums](https://discuss.streamlit.io).
 In the meantime, below is an example of what you can do with just a few lines of code:
 """
 chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
+     np.random.randn(30, 3),
      columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
